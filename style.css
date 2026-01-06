@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #73ea66, #764ba2);
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #e60000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #c80000;
+}
+
+table {
+  width: 100%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #222;
+  color: white;
+}
+
+.update {
+  background: #40c4ff;
+}
+
+.delete {
+  background: #52d7ff;
+  color: rgb(255, 255, 255);
+}
+
+/* SEARCH TOGGLE */
+.search-box {
+  margin-top: 40px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reset {
+  background: #ff1500;
+}
